@@ -1,0 +1,35 @@
+<view class="header">
+  <view class="container hdCon">
+    <navigator open-type="switchTab" url="/pages/index/inde" class="loge">
+    <image mode="heightFix" src="/pages/image/homeheader.png" ></image>
+    </navigator>
+    <view class="kefu">
+<button class="btn" open-type="contact"></button>
+<image mode="heightFix" src="/pages/image/speck.png"></image>
+  </view>
+  </view>
+</view>
+
+<view class="banner">
+<swiper indicator-dots="true" indicator-color="rgba（255，255,255,0.5）" indicator-active-color="#fff" autoplay  circular interval="3000">
+<swiper-item><image mode="widthFix" src="/pages/image/banner1.png"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="/pages/image/banner2.png"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="/pages/image/banner3.png"></image></swiper-item>
+</swiper>
+</view>
+
+<view class="work">
+<view class="tit">
+  <navigator class="demo" url="/pages/zhaopin/zhaopin">
+    <image src="/pages/image/zhaopin.png" ></image>
+    <view class="txt">信息发布</view>
+  </navigator>
+
+  <navigator class="demo" url="/pages/jianli/jianli">
+    <image src="/pages/image/jianli.png"></image>
+    <view class="txt">简历制作</view>
+  </navigator>
+</view>
+
+
+</view>

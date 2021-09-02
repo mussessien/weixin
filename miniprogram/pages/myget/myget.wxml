@@ -1,0 +1,9 @@
+<!--pages/myget/myget.wxml-->
+<view class="other" wx:for="{{jldata}}">
+<navigator class="id" url="/pages/myget1/myget1?id={{item._id}}">
+  <view class="order">
+<text class="mytext">投递人：{{item.name}}</text>
+<text class="mytext1">投递职位：{{item.qiwangzhiwei}}</text>
+</view>
+</navigator>
+</view>

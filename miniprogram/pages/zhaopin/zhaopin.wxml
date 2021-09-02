@@ -1,0 +1,11 @@
+<!--pages/zhaopin/zhaopin.wxml-->
+<form bindsubmit="btnData">
+  <view class="top"><input type="text" name="title" placeholder="企业名称" maxlength="50" placeholder-style="color:#cccc"></input></view>
+  <view class="mid"> <input type="text" name="zhiwei" placeholder="职位名称" maxlength="50" placeholder-style="color:#cccc"></input></view>
+  <view class="bot"><input type="text" name="daiyu" placeholder="薪资待遇" maxlength="50" placeholder-style="color:#cccc"></input></view>
+  <view class="bot3"><input type="text" name="dianhua" placeholder="联系电话" maxlength="50" placeholder-style="color:#cccc"></input></view>
+  <view class="bot1"><input type="text" name="dizhi" placeholder="工作地点" maxlength="50" placeholder-style="color:#cccc"></input></view>
+  <view class="bot2"><textarea type="text" name="tiaojian" placeholder="招聘条件及工作简介" placeholder-style="color:#cccc"maxlength="800"></textarea></view>
+  <button form-type="submit" type="primary">提交</button>
+  <button form-type="reset">重置</button>
+</form>

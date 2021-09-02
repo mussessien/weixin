@@ -1,0 +1,13 @@
+.order{
+height: 80rpx; width: 750rpx;
+ display: flex;justify-content: space-between;
+ box-sizing: border-box;
+ margin-bottom: 25rpx;
+}
+.order.mytext{
+  font-size: 10rpx;height: 100%; position: relative;
+}
+.id{
+  border:1px solid blue;
+  margin-bottom: 25rpx;
+}

@@ -1,0 +1,8 @@
+<view class="top">姓名：{{obj.name}}</view>
+<view class="mid">年龄:{{obj.age}}</view>
+<view class="bot">性别：{{obj.sex}}</view>
+<view class="bot3">学历水平:{{obj.xueli}}</view>
+<view class="bot1">期望薪资:{{obj.xinzi}}</view>
+<view class="bot1">联系方式:{{obj.dianhua}}</view>
+<view class="bot1">投递职位:{{obj.qiwangzhiwei}}</view>
+<view class="bot2">{{obj.ziwojiesao}}</view>

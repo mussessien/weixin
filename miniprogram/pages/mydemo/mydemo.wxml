@@ -1,0 +1,13 @@
+<button bindtap="GetData" type="primary">我的简历</button>
+<view class="other" wx:for="{{data}}">
+<navigator class="id" url="/pages/mydemo1/mydemo1?index={{index}}">
+  <view class="order">
+<text class="mytext">{{item.name}}</text>
+<text class="mytext1">年龄：{{item.age}}</text>
+</view>
+<view class="order">
+  <text class="mytext">学历水平：{{item.xueli}}</text>
+  <text class="mytext1">联系方式：{{item.dianhua}}</text>
+</view>
+</navigator>
+</view>

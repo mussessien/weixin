@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/storageConsole/storageConsole",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/logs/logs",
+    "pages/use/use",
+    "pages/image/image",
+    "pages/demo1/demo1",
+    "pages/jianli/jianli",
+    "pages/zhaopin/zhaopin",
+    "pages/mylist/mylist",
+    "pages/mydemo/mydemo",
+    "pages/mylist1/mylist1",
+    "pages/demo2/demo2",
+    "pages/myget/myget",
+    "pages/myget1/myget1",
+    "pages/mydemo1/mydemo1"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "在线招聘信息发布",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+
+    "list": [
+     {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+         "iconPath": "pages/image/home-h.png",
+        "selectedIconPath": "pages/image/home.png"
+    },
+      {
+        "pagePath": "pages/demo1/demo1",
+        "text": "招聘信息",
+        "selectedIconPath": "pages/image/pag.png",
+        "iconPath": "pages/image/pag-h.png"
+      },
+   
+      {
+        "pagePath": "pages/use/use",
+        "text": "个人中心",
+        "selectedIconPath": "pages/image/use.png",
+        "iconPath": "pages/image/use-h.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

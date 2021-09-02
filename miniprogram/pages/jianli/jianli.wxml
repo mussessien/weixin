@@ -1,0 +1,13 @@
+<form bindsubmit="btnData">
+  <view class="top"><input type="text" name="name" placeholder="姓名" maxlength="10" placeholder-style="color:#cccc"></input></view>
+  <view class="top"><input type="text" name="age" placeholder="年龄" maxlength="2"placeholder-style="color:#cccc"></input></view>
+  <view class="top"><input type="text" name="sex" placeholder="性别" maxlength="1"placeholder-style="color:#cccc"></input></view>
+  <view class="top"> <input type="text" name="xueli" placeholder="学历" maxlength="50"placeholder-style="color:#cccc"></input></view>
+  <view class="top"><input type="text" name="xinzi" placeholder="薪资" maxlength="50"placeholder-style="color:#cccc"></input></view>
+  <view class="top"><input type="text" name="dianhua" placeholder="电话" maxlength="20"placeholder-style="color:#cccc"></input></view>
+  <view class="top"> <input type="text" name="qiwangzhiwei" placeholder="期望职位" maxlength="50" placeholder-style="color:#cccc"></input></view>
+  <view class="bot2"><textarea type="text" name="ziwojiesao" placeholder="自我介绍" maxlength="800" placeholder-style="color:#cccc"></textarea></view>
+  <button form-type="submit" type="primary">提交</button>
+  <button form-type="reset">重置</button>
+</form>
+

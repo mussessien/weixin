@@ -1,0 +1,8 @@
+<view class="top">企业名称：{{mylist.title}}</view>
+<view class="mid">职位:{{mylist.zhiwei}}</view>
+<view class="bot">薪资：{{mylist.daiyu}}</view>
+<view class="bot3">联系电话:{{mylist.dianhua}}</view>
+<view class="bot1">工作地点:{{mylist.dizhi}}</view>
+<view class="bot2">工作简介：{{mylist.tiaojian}}</view>
+<navigator url="/pages/mylist/mylist" open-type="reLaunch">
+<button bindtap="Deldata" type="primary">删除信息</button></navigator>

@@ -1,0 +1,10 @@
+<view class="top">姓名：{{mydemo.name}}</view>
+<view class="mid">年龄:{{mydemo.age}}</view>
+<view class="bot">性别：{{mydemo.sex}}</view>
+<view class="bot3">学历水平:{{mydemo.xueli}}</view>
+<view class="bot1">期望薪资:{{mydemo.xinzi}}</view>
+<view class="bot1">联系方式:{{mydemo.dianhua}}</view>
+<view class="bot1">期望职位:{{mydemo.qiwangzhiwei}}</view>
+<view class="bot2">{{mydemo.ziwojiesao}}</view>
+<navigator url="/pages/mydemo/mydemo" open-type="reLaunch">
+<button bindtap="Deldata" type="primary">删除信息</button></navigator>

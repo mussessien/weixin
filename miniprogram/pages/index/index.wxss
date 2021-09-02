@@ -1,0 +1,12 @@
+.banner{width: 100%; height:380rpx;}
+.banner swiper{width: 100%;height: 100%;}
+
+.work{background: rgb(255,255,255);}
+.work .demo{ text-align: center;}
+.work .demo image{width: 340rpx;height: 180rpx;}
+.tit{display: flex;padding: 10rpx 25rpx;}
+.work .txt{font-size: 45rpx;}
+
+.work .demo1{ text-align: center;}
+.work .demo1 image{width: 340rpx;height: 180rpx;}
+.tit1{display: flex;padding: 10rpx 25rpx;}

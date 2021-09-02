@@ -1,0 +1,55 @@
+.top {
+  top: 0px;
+  clear: both;
+  border: 1px solid rgb(182, 176, 173);
+  border-radius: 20rpx;
+  padding: 15rpx 15rpx 7rpx 20rpx;
+  left: 20rpx;
+  margin: 10rpx 20rpx;
+}
+.mid {
+  top: 0px;
+  clear: both;
+  border: 1px solid rgb(182, 176, 173);
+  border-radius: 20rpx;
+  padding: 15rpx 15rpx 7rpx 20rpx;
+  left: 20rpx;
+  margin: 10rpx 20rpx;
+}
+.bot {
+  top: 0px;
+  clear: both;
+  border: 1px solid rgb(182, 176, 173);
+  border-radius: 20rpx;
+  padding: 15rpx 15rpx 7rpx 20rpx;
+  left: 20rpx;
+  margin: 10rpx 20rpx;
+}
+.bot2{
+  top: 0px;
+  clear: both;
+  border: 1px solid rgb(182, 176, 173);
+  border-radius: 20rpx;
+  padding: 15rpx 15rpx 7rpx 20rpx;
+  left: 50rpx;
+  margin: 10rpx 20rpx;
+  height: 350rpx;
+}
+.bot3 {
+  top: 0px;
+  clear: both;
+  border: 1px solid rgb(182, 176, 173);
+  border-radius: 20rpx;
+  padding: 15rpx 15rpx 7rpx 20rpx;
+  left: 20rpx;
+  margin: 10rpx 20rpx;
+}
+.bot1 {
+  top: 0px;
+  clear: both;
+  border: 1px solid rgb(182, 176, 173);
+  border-radius: 20rpx;
+  padding: 15rpx 15rpx 7rpx 20rpx;
+  left: 20rpx;
+  margin: 10rpx 20rpx;
+}

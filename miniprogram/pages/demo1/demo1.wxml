@@ -1,0 +1,13 @@
+<!--pages/demo1/demo1.wxml-->
+<view class="other" wx:for="{{Objdata}}" wx:key="data">
+<navigator class="id" url="/pages/demo2/demo2?index={{index}}">
+  <view class="order">
+<text class="mytext">{{item.zhiwei}}</text>
+<text class="mytext1">月薪：{{item.daiyu}}</text>
+</view>
+<view class="order">
+  <text class="mytext">工作地点：{{item.dizhi}}</text>
+  <text class="mytext1">联系方式：{{item.dianhua}}</text>
+</view>
+</navigator>
+</view>
