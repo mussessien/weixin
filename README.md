@@ -11,3 +11,11 @@
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
 #weixin
+
+本程序全部使用原生开发，属于新手练习
+
+后端数据库采用微信自带的云开发数据库  存储简单的数据信息
+
+主要实现的功能：招聘信息的发布   简历信息的制作   简历信息的投递   
+
+并未区分用户   求职者和企业采用的是同一个页面
